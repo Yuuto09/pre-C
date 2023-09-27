@@ -14,6 +14,7 @@
 		054E4DA22AC3BEF100BBD3CA /* pre_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E4DA12AC3BEF100BBD3CA /* pre_CTests.swift */; };
 		054E4DAC2AC3BEF100BBD3CA /* pre_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E4DAB2AC3BEF100BBD3CA /* pre_CUITests.swift */; };
 		054E4DAE2AC3BEF100BBD3CA /* pre_CUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E4DAD2AC3BEF100BBD3CA /* pre_CUITestsLaunchTests.swift */; };
+		054E4DBB2AC3BFAA00BBD3CA /* ImagePickerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E4DBA2AC3BFAA00BBD3CA /* ImagePickerview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		054E4DA72AC3BEF100BBD3CA /* pre CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pre CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054E4DAB2AC3BEF100BBD3CA /* pre_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pre_CUITests.swift; sourceTree = "<group>"; };
 		054E4DAD2AC3BEF100BBD3CA /* pre_CUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pre_CUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		054E4DBA2AC3BFAA00BBD3CA /* ImagePickerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				054E4D902AC3BEEF00BBD3CA /* pre_CApp.swift */,
 				054E4D922AC3BEEF00BBD3CA /* ContentView.swift */,
+				054E4DBA2AC3BFAA00BBD3CA /* ImagePickerview.swift */,
 				054E4D942AC3BEF100BBD3CA /* Assets.xcassets */,
 				054E4D962AC3BEF100BBD3CA /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				054E4D932AC3BEEF00BBD3CA /* ContentView.swift in Sources */,
 				054E4D912AC3BEEF00BBD3CA /* pre_CApp.swift in Sources */,
+				054E4DBB2AC3BFAA00BBD3CA /* ImagePickerview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"pre C/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"pre C/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
